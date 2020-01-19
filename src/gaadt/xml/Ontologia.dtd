@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT ontologia (dominio, valor-relacao+, relacao-binaria+)>
+
+<!ELEMENT dominio (#PCDATA)>
+                   
+    <!ELEMENT valor-relacao (supertipo)>
+    <!ATTLIST valor-relacao cod CDATA #IMPLIED>
+            <!ELEMENT supertipo (frase)*>
+            <!ATTLIST supertipo cadeia CDATA #IMPLIED>
+            <!ELEMENT frase (#PCDATA)>
+                
+    <!ELEMENT relacao-binaria (conceito-origem, conceito-destino, cod-valor-relacao)>	
+    <!ATTLIST relacao-binaria cod CDATA #IMPLIED>
+            <!ELEMENT conceito-origem (#PCDATA)>
+            <!ELEMENT conceito-destino (#PCDATA)>		
+            <!ELEMENT cod-valor-relacao (#PCDATA)>

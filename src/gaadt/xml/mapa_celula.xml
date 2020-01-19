@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapa SYSTEM "mapa.dtd">
+
+<mapa tipomapa="1">
+
+<conceitoontologia texto="Membrana nuclear"/>
+<conceitoontologia texto="Membrana"/>
+<conceitoontologia texto="Poro"/>
+
+<conceito id="0" texto="Núcleo" x="499.0" y="122.0" corborda="-16777216" corpreenchimento="-1" nomeletra="Dialog.plain" estiloletra="0" tamanholetra="12" corletra="-16777216" />
+<conceito id="1" texto="Mitocondrias" x="707.0" y="422.0" corborda="-16777216" corpreenchimento="-1" nomeletra="Dialog.plain" estiloletra="0" tamanholetra="12" corletra="-16777216" />
+<conceito id="2" texto="Centríolos" x="794.0" y="322.0" corborda="-16777216" corpreenchimento="-1" nomeletra="Dialog.plain" estiloletra="0" tamanholetra="12" corletra="-16777216" />
+<conceito id="3" texto="Cromatina" x="341.0" y="286.0" corborda="-16777216" corpreenchimento="-1" nomeletra="Dialog.plain" estiloletra="0" tamanholetra="12" corletra="-16777216" />
+<conceito id="4" texto="Célula" x="540.0" y="383.0" corborda="-16777216" corpreenchimento="-1" nomeletra="Dialog.plain" estiloletra="0" tamanholetra="12" corletra="-16777216" />
+
+<frasecontextualizada id="5" texto="usa" supertipo="assimetria.processo.entrada.sentido_direto" x="686.25" y="334.0" tiposeta="0" nomeletra="Dialog.plain" estiloletra="0" tamanholetra="12" corletra="-16777216" />
+<frasecontextualizada id="6" texto="contém" supertipo="assimetria.partição.física.sentido_direto" x="549.0" y="461.0" tiposeta="1" nomeletra="Dialog.plain" estiloletra="0" tamanholetra="12" corletra="-16777216" />
+<frasecontextualizada id="7" texto="é componente de" supertipo="assimetria.partição.temporalidade.sentido_inverso" x="534.25" y="234.0" tiposeta="0" nomeletra="Dialog.plain" estiloletra="0" tamanholetra="12" corletra="-16777216" />
+<frasecontextualizada id="8" texto="é delimitado por" supertipo="assimetria.definição.definidor.sentido_inverso" x="381.75" y="169.5" tiposeta="0" nomeletra="Dialog.plain" estiloletra="0" tamanholetra="12" corletra="-16777216" />
+<frasecontextualizada id="9" texto="tem atributo" supertipo="assimetria.caracterização.sentido_direto" x="386.0" y="377.0" tiposeta="1" nomeletra="Dialog.plain" estiloletra="0" tamanholetra="12" corletra="-16777216" />
+
+<arco tipo="0" origem="0" alvo="8" corlinha="-16776961" estilo="1" />
+<arco tipo="0" origem="7" alvo="4" corlinha="-16776961" estilo="1" />
+<arco tipo="1" origem="9" alvo="3" corlinha="-16776961" estilo="1" />
+<arco tipo="0" origem="5" alvo="2" corlinha="-16776961" estilo="1" />
+<arco tipo="1" origem="6" alvo="1" corlinha="-16776961" estilo="1" />
+<arco tipo="0" origem="8" alvo="3" corlinha="-16776961" estilo="1" />
+<arco tipo="0" origem="4" alvo="5" corlinha="-16776961" estilo="1" />
+<arco tipo="1" origem="4" alvo="9" corlinha="-16776961" estilo="1" />
+<arco tipo="1" origem="4" alvo="6" corlinha="-16776961" estilo="1" />
+<arco tipo="0" origem="0" alvo="7" corlinha="-16776961" estilo="1" />
+
+</mapa>

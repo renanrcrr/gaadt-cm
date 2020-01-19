@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ontologia SYSTEM "Ontologia.dtd">
+
+<ontologia>
+<dominio>dominio</dominio>
+<valor-relacao cod="0" x="593.25" y="168.5" nomeletra="Dialog.plain" estiloletra="0" tamanholetra="12" corletra="-16777216" >
+<supertipo cadeia="assimetria.partição.temporalidade.sentido_direto">
+<frase> contém</frase>
+</supertipo>
+</valor-relacao>
+<valor-relacao cod="1" x="528.0" y="324.0" nomeletra="Dialog.plain" estiloletra="0" tamanholetra="12" corletra="-16777216" >
+<supertipo cadeia="assimetria.partição.física.sentido_direto">
+<frase> é composto de</frase>
+</supertipo>
+</valor-relacao>
+
+<relacao-binaria cod="0">
+<conceito-origem>Célula</conceito-origem>
+<conceito-destino>Núcleo</conceito-destino>
+<cod-valor-relacao>0</cod-valor-relacao>
+</relacao-binaria>
+<relacao-binaria cod="1">
+<conceito-origem>Célula</conceito-origem>
+<conceito-destino>Mitocondrias</conceito-destino>
+<cod-valor-relacao>0</cod-valor-relacao>
+</relacao-binaria>
+<relacao-binaria cod="2">
+<conceito-origem>Célula</conceito-origem>
+<conceito-destino>Centríolos</conceito-destino>
+<cod-valor-relacao>0</cod-valor-relacao>
+</relacao-binaria>
+<relacao-binaria cod="3">
+<conceito-origem>Célula</conceito-origem>
+<conceito-destino>Membrana</conceito-destino>
+<cod-valor-relacao>0</cod-valor-relacao>
+</relacao-binaria>
+<relacao-binaria cod="4">
+<conceito-origem>Núcleo</conceito-origem>
+<conceito-destino>Poro</conceito-destino>
+<cod-valor-relacao>1</cod-valor-relacao>
+</relacao-binaria>
+<relacao-binaria cod="5">
+<conceito-origem>Núcleo</conceito-origem>
+<conceito-destino>Membrana nuclear</conceito-destino>
+<cod-valor-relacao>1</cod-valor-relacao>
+</relacao-binaria>
+<relacao-binaria cod="6">
+<conceito-origem>Núcleo</conceito-origem>
+<conceito-destino>Cromatina</conceito-destino>
+<cod-valor-relacao>1</cod-valor-relacao>
+</relacao-binaria>
+
+<conceito id="2" texto="Centríolos" x="649.0" y="258.0" corborda="-16777216" corpreenchimento="-1" nomeletra="Dialog.plain" estiloletra="0" tamanholetra="12" corletra="-16777216" />
+<conceito id="3" texto="Mitocondrias" x="751.0" y="232.0" corborda="-16777216" corpreenchimento="-1" nomeletra="Dialog.plain" estiloletra="0" tamanholetra="12" corletra="-16777216" />
+<conceito id="4" texto="Núcleo" x="542.0" y="257.0" corborda="-16777216" corpreenchimento="-1" nomeletra="Dialog.plain" estiloletra="0" tamanholetra="12" corletra="-16777216" />
+<conceito id="5" texto="Célula" x="600.0" y="101.0" corborda="-16777216" corpreenchimento="-1" nomeletra="Dialog.plain" estiloletra="0" tamanholetra="12" corletra="-16777216" />
+<conceito id="6" texto="Poro" x="407.0" y="313.0" corborda="-16777216" corpreenchimento="-1" nomeletra="Dialog.plain" estiloletra="0" tamanholetra="12" corletra="-16777216" />
+<conceito id="7" texto="Cromatina" x="588.0" y="384.0" corborda="-16777216" corpreenchimento="-1" nomeletra="Dialog.plain" estiloletra="0" tamanholetra="12" corletra="-16777216" />
+<conceito id="8" texto="Membrana nuclear" x="429.0" y="370.0" corborda="-16777216" corpreenchimento="-1" nomeletra="Dialog.plain" estiloletra="0" tamanholetra="12" corletra="-16777216" />
+<conceito id="9" texto="Membrana" x="425.0" y="223.0" corborda="-16777216" corpreenchimento="-1" nomeletra="Dialog.plain" estiloletra="0" tamanholetra="12" corletra="-16777216" />
+
+
+<arco origem="0" alvo="4" corlinha="-16777216" estilo="0" />
+<arco origem="4" alvo="1" corlinha="-16777216" estilo="0" />
+<arco origem="0" alvo="2" corlinha="-16777216" estilo="0" />
+<arco origem="1" alvo="7" corlinha="-16777216" estilo="0" />
+<arco origem="0" alvo="9" corlinha="-16777216" estilo="0" />
+<arco origem="1" alvo="8" corlinha="-16777216" estilo="0" />
+<arco origem="1" alvo="6" corlinha="-16777216" estilo="0" />
+<arco origem="5" alvo="0" corlinha="-16777216" estilo="0" />
+<arco origem="0" alvo="3" corlinha="-16777216" estilo="0" />
+
+</ontologia>
